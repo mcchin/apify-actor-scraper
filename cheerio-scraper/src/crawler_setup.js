@@ -262,6 +262,7 @@ class CrawlerSetup {
                     headers: response.headers,
                 },
                 cheerio,
+                _,
             },
         };
         const { context, state } = createContext(contextOptions);
