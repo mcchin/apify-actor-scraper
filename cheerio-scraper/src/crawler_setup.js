@@ -1,6 +1,7 @@
 const Apify = require('apify');
 const cheerio = require('cheerio');
 const _ = require('underscore');
+const md5 = require('md5');
 const {
     tools,
     createContext,
@@ -263,6 +264,7 @@ class CrawlerSetup {
                 },
                 cheerio,
                 _,
+                md5,
             },
         };
         const { context, state } = createContext(contextOptions);

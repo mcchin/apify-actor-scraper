@@ -6,6 +6,7 @@
 	"dependencies": {
 		"@apify/scraper-tools": "^0.1.13",
 		"apify": "^0.20.2",
+		"md5": "^2.2.1",
 		"tough-cookie": "^3.0.1",
 		"underscore": "^1.9.1"
 	},
