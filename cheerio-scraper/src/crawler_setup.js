@@ -2,6 +2,8 @@ const Apify = require('apify');
 const cheerio = require('cheerio');
 const _ = require('underscore');
 const md5 = require('md5');
+const fetch = require('node-fetch');
+
 const {
     tools,
     createContext,
@@ -265,6 +267,7 @@ class CrawlerSetup {
                 cheerio,
                 _,
                 md5,
+                fetch,
             },
         };
         const { context, state } = createContext(contextOptions);
