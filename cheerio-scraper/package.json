@@ -9,7 +9,7 @@
 		"md5": "^2.2.1",
 		"node-fetch": "^2.6.0",
 		"tough-cookie": "^3.0.1",
-		"underscore": "^1.9.1"
+		"underscore": "^1.12.1"
 	},
 	"devDependencies": {
 		"@apify/eslint-config": "^0.0.3",
